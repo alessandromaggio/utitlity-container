@@ -20,6 +20,4 @@ RUN apk update && \
   rm -rf /var/cache/apk/* && \
   pip install awscli
 
-COPY .bash_profile /root/.bash_profile
-
 CMD ['/bin/bash']
